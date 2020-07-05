@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <header id="header">
+        <nav-bar></nav-bar>
+    </header>
+    <main>
+        <div id="home">
+            <div class="banner" >
+                    <p>Find About <span class="bold">Movie</span> <br>At Here</p>                              
+                </div>
+            </div>            
+        </div>                                    
+        <div  id="latest-movie">
+            <div id="now-playing" class="filter-movie">
+                <h2 id="now_playing" class="white">Now Playing</h2>
+                <h2 id="upcoming">Upcoming</h2>
+            </div>            
+                <latest-movie></latest-movie>            
+        </div>            
+        
+        <div id="other-movies">
+            <div class="section-title light">
+                    <p>Other Movies</p>
+            </div>
+            <div class="filter-container">                
+                <div class="filter-items filter-title">
+                    <h3>Genre :</h3>
+                </div>
+                <div id="genre" class="filter-items filter-select">                    
+                    <select name="genre" id="genres">
+                        <option value="#">Genre</option>
+                    </select>
+                </div>
+                <div class="filter-items filter-title">
+                    <h3>By Popularity</h3>
+                </div>
+                <div class="filter-items filter-years">
+                    <select name="popularity" id="popularity">
+                        <option value="desc">From High to Low</option>
+                        <option value="asc">From Low to High</option>
+                    </select>
+                </div>
+            </div>
+            <div class="list-movie other-movie">                
+                <other-movie></other-movie>
+            </div>                                    
+        </div>
+    </main>    
+    <footer>
+        <p class="supported">Supported by : <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt=""></p>
+        <h3 class="light">Hanif R - 2020</h3>
+    </footer>    
+</body>
+</html>
